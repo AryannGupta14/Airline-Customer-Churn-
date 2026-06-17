@@ -1,13 +1,13 @@
-# Airline Customer Churn Analysis
+# ✈️ Airline Customer Satisfaction — Churn Risk Prediction
 End to End Data Analytics and Machine Learning Project
 
 ## Project Overview
 This project demonstrates an end to end analytical approach to understanding and predicting customer churn in the airline industry using real world data. The objective was not only to build a high performing predictive model, but also to identify actionable business drivers of churn that could support customer retention strategies and product decision making.
 
-## Problem Statement
+## 📌 Problem Statement
 The main purpose of this dataset is to predict whether a future customer would be satisfied with their service given the details of the other parameters values. Also the airlines need to know on which aspect of the services offered by them have to be emphasized more to generate more satisfied customers.
 
-## About Dataset
+## 📊 Dataset
 This data given by an airline organization. The dataset consists of the details of customers who have already flown with them. The feedback of the customers on various context and their flight data has been consolidated.
 ### Column Description:
 1. Gender: Gender of the passengers (Female, Male)
@@ -35,7 +35,7 @@ This data given by an airline organization. The dataset consists of the details 
 23. Satisfaction: Airline satisfaction level(satisfied, neutral or dissatisfied)
 Labelled satisfied : 0 (Not at risk to churn), 1 neutral or dissatisfied : 1 (At risk to churn)
 
-## Methodology (End to End Workflow)
+## 🔍 What I did (End to End Workflow)
 
 ### Data Understanding & Cleaning
 1. Checked missing values, duplicates, and data consistency.
@@ -66,7 +66,7 @@ Evaluated models using:
 
 #### XGBoost achieved an F1 score of 0.96 & ROC AUC score of 0.99, indicating excellent predictive performance
 
-## Key Insights (Business Value)
+## 📈 Key Results (Business Value)
 1. Service related factors (inflight wifi service, inflight entertainment, online boarding) were strong churn drivers.
 2. Customers with lower satisfaction scores had significantly higher churn probability.
 3. Loyalty-related features played a critical role in retention.
@@ -85,3 +85,18 @@ Evaluated models using:
 2. Statistical reasoning
 3. Model evaluation
 4. Insight communication
+
+## 🛠️ Tech Stack
+
+```
+Python · Pandas · NumPy · Matplotlib · Seaborn
+Scikit-learn · XGBoost · Statsmodels
+```
+
+---
+
+## 📬 Connect
+
+**Aryan Gupta** — MSc Statistics  
+[LinkedIn](https://linkedin.com/in/aryan-gupta-stats) · aryan.gupta.stats@gmail.com
+
